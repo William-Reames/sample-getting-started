@@ -72,14 +72,14 @@
     <finalName>${project.artifactId}</finalName>
     <plugins>
       <!-- Enable liberty-maven plugin -->
-      <plugin>
+      <!-- <plugin>
         <groupId>io.openliberty.tools</groupId>
         <artifactId>liberty-maven-plugin</artifactId>
         <version>${version.liberty-maven-plugin}</version>
         <configuration>
           <serverName>sampleAppServer</serverName>
         </configuration>
-      </plugin>
+      </plugin> -->
       <!-- Plugin to run functional tests -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
